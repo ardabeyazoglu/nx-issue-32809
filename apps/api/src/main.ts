@@ -6,7 +6,7 @@
 import { Logger } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app/app.module';
-import { shared } from '@myapp/shared/lib/shared';
+import { shared } from 'shared';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
