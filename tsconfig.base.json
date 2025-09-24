@@ -35,9 +35,6 @@
       "node"
     ],
     "paths": {
-      "shared": [
-        "libs/shared/src/index.ts"
-      ],
       "@myapp/shared/*": [
         "libs/shared/src/*"
       ]
