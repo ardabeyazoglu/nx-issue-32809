@@ -55,8 +55,12 @@
         "hash": "3679919933839978969"
       },
       {
-        "file": "package.json",
-        "hash": "16491081866353425191"
+        "file": "tsconfig.base.json",
+        "hash": "15642384794455495879"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "13292142815830492465"
       },
       {
         "file": ".prettierignore",
@@ -67,16 +71,12 @@
         "hash": "4650142746104209759"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "15642384794455495879"
-      },
-      {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": "package-lock.json",
-        "hash": "13292142815830492465"
+        "file": "package.json",
+        "hash": "16491081866353425191"
       },
       {
         "file": ".vscode/launch.json",
@@ -87,7 +87,7 @@
       "api": [
         {
           "file": "apps/api/package.json",
-          "hash": "16022798114131237863"
+          "hash": "1145376531673572344"
         },
         {
           "file": "apps/api/project.json",
@@ -175,7 +175,7 @@
         },
         {
           "file": "libs/shared/src/lib/shared.ts",
-          "hash": "10510921526968257349"
+          "hash": "17148485696112266180"
         },
         {
           "file": "libs/shared/tsconfig.json",
