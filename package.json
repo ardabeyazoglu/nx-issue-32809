@@ -10,7 +10,8 @@
   },
   "scripts": {
     "build": "nx build api",
-    "start": "nx serve api"
+    "start": "nx serve api",
+    "release": "nx release --skip-publish"
   },
   "devDependencies": {
     "@nestjs/schematics": "^11.0.0",

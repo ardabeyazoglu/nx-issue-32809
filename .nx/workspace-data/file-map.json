@@ -51,36 +51,36 @@
         "hash": "15241605807565555734"
       },
       {
-        "file": "nx.json",
-        "hash": "4650142746104209759"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": ".vscode/settings.json",
         "hash": "3679919933839978969"
       },
       {
-        "file": "package.json",
-        "hash": "5044959750758311018"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "14688272390704683536"
-      },
-      {
-        "file": ".vscode/launch.json",
-        "hash": "11911801181309274062"
+        "file": "tsconfig.base.json",
+        "hash": "15642384794455495879"
       },
       {
         "file": "package-lock.json",
         "hash": "13292142815830492465"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "15642384794455495879"
+        "file": "package.json",
+        "hash": "16491081866353425191"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4650142746104209759"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "11911801181309274062"
       }
     ],
     "projectFileMap": {
@@ -120,7 +120,7 @@
         },
         {
           "file": "apps/api/src/main.ts",
-          "hash": "8439084616668443698",
+          "hash": "16985570920211597684",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/core",
