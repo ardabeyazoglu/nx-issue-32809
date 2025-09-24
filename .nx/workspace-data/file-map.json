@@ -47,12 +47,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "15241605807565555734"
+        "file": "package-lock.json",
+        "hash": "13292142815830492465"
+      },
+      {
+        "file": "nx.json",
+        "hash": "4650142746104209759"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "11911801181309274062"
       },
       {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "15241605807565555734"
       },
       {
         "file": ".vscode/settings.json",
@@ -63,24 +75,12 @@
         "hash": "15642384794455495879"
       },
       {
-        "file": "package-lock.json",
-        "hash": "13292142815830492465"
-      },
-      {
         "file": "package.json",
         "hash": "16491081866353425191"
       },
       {
         "file": ".prettierignore",
         "hash": "14688272390704683536"
-      },
-      {
-        "file": "nx.json",
-        "hash": "4650142746104209759"
-      },
-      {
-        "file": ".vscode/launch.json",
-        "hash": "11911801181309274062"
       }
     ],
     "projectFileMap": {
@@ -120,7 +120,7 @@
         },
         {
           "file": "apps/api/src/main.ts",
-          "hash": "16985570920211597684",
+          "hash": "16361664629648523960",
           "deps": [
             "npm:@nestjs/common",
             "npm:@nestjs/core",
