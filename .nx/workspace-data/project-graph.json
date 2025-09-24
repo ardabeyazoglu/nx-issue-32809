@@ -202,15 +202,7 @@
             },
             "cache": true,
             "inputs": [
-              "{projectRoot}/package.json",
-              "{workspaceRoot}/tsconfig.base.json",
-              "{projectRoot}/tsconfig.json",
-              "{projectRoot}/tsconfig.app.json",
-              "{projectRoot}/src/**/*.ts",
-              "{workspaceRoot}/libs/shared/src/**/*.ts",
-              "!{workspaceRoot}/**/node_modules/*",
-              "!{workspaceRoot}/**/tmp",
-              "!{workspaceRoot}/**/dist",
+              "default",
               {
                 "dependentTasksOutputFiles": "**/*.d.ts"
               },
@@ -221,8 +213,20 @@
               }
             ],
             "outputs": [
+              "{projectRoot}/**/*.js",
+              "{projectRoot}/**/*.cjs",
+              "{projectRoot}/**/*.mjs",
+              "{projectRoot}/**/*.jsx",
+              "{projectRoot}/**/*.js.map",
+              "{projectRoot}/**/*.jsx.map",
+              "{projectRoot}/**/*.d.ts",
+              "{projectRoot}/**/*.d.cts",
+              "{projectRoot}/**/*.d.mts",
+              "{projectRoot}/**/*.d.ts.map",
+              "{projectRoot}/**/*.d.cts.map",
+              "{projectRoot}/**/*.d.mts.map",
+              "{projectRoot}/tsconfig.tsbuildinfo",
               "{workspaceRoot}/dist/out-tsc/**/*.d.ts",
-              "{workspaceRoot}/dist/out-tsc/**/*.d.ts.map",
               "{workspaceRoot}/dist/out-tsc/apps/api/*.tsbuildinfo"
             ],
             "syncGenerators": [
@@ -23373,5 +23377,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1758707927631
+  "computedAt": 1758707930320
 }
