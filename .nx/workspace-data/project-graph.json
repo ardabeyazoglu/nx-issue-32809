@@ -77,7 +77,13 @@
       "data": {
         "root": "apps/api",
         "projectType": "application",
-        "metadata": {},
+        "metadata": {
+          "targetGroups": {},
+          "js": {
+            "packageName": "@myapp/api",
+            "isInPackageManagerWorkspaces": false
+          }
+        },
         "targets": {
           "build": {
             "executor": "@nx/webpack:webpack",
@@ -249,6 +255,15 @@
             "configurations": {},
             "parallelism": true
           },
+          "nx-release-publish": {
+            "executor": "@nx/js:release-publish",
+            "dependsOn": [
+              "^nx-release-publish"
+            ],
+            "options": {},
+            "configurations": {},
+            "parallelism": true
+          },
           "prune-lockfile": {
             "dependsOn": [
               "build"
@@ -292,9 +307,11 @@
           }
         },
         "name": "api",
+        "tags": [
+          "npm:public"
+        ],
         "$schema": "../../node_modules/nx/schemas/project-schema.json",
         "sourceRoot": "apps/api/src",
-        "tags": [],
         "implicitDependencies": []
       }
     }
@@ -23365,5 +23382,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1758707396704
+  "computedAt": 1758707585112
 }
