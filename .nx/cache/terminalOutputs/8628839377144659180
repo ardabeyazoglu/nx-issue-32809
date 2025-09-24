@@ -1,0 +1,26 @@
+> webpack-cli build --node-env=production
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 2.71 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/app.controller.ts[39m[22m [1m[32m[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m
+[1m[31m      TS5095: Option 'bundler' can only be used when 'module' is set to 'preserve' or to 'es2015' or later.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/app.module.ts[39m[22m [1m[32m[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m
+[1m[31m      TS5095: Option 'bundler' can only be used when 'module' is set to 'preserve' or to 'es2015' or later.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/app.service.ts[39m[22m [1m[32m[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m
+[1m[31m      TS5095: Option 'bundler' can only be used when 'module' is set to 'preserve' or to 'es2015' or later.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m
+[1m[31m      TS5095: Option 'bundler' can only be used when 'module' is set to 'preserve' or to 'es2015' or later.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m/home/ardabeyaz/works/personal/nx-example/apps/api/tsconfig.app.json[39m[22m
+[1m./src/main.ts[39m[22m [1m[32m/home/ardabeyaz/works/personal/nx-example/apps/api/tsconfig.app.json[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m
+[1m[31m      TS5095: Option 'bundler' can only be used when 'module' is set to 'preserve' or to 'es2015' or later.[39m[22m
+
+webpack compiled with [1m[31m5 errors[39m[22m (3c86885cb93aed69)

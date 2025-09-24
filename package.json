@@ -1,0 +1,43 @@
+{
+  "type": "commonjs",
+  "private": true,
+  "engineStrict": true,
+  "engines": {
+    "node": ">=22",
+    "npm": ">=10"
+  },
+  "scripts": {
+    "build": "nx build api",
+    "start": "nx serve api"
+  },
+  "devDependencies": {
+    "@nestjs/schematics": "^11.0.0",
+    "@nestjs/testing": "^11.0.0",
+    "@nx/js": "^21.5.3",
+    "@nx/nest": "^21.5.3",
+    "@nx/node": "21.5.3",
+    "@nx/web": "21.5.3",
+    "@nx/webpack": "21.5.3",
+    "@swc-node/register": "~1.11.1",
+    "@swc/core": "~1.13.5",
+    "@swc/helpers": "~0.5.17",
+    "@types/node": "^22.0",
+    "nx": "21.5.3",
+    "prettier": "^2.6.2",
+    "tslib": "^2.3.0",
+    "ts-loader": "^9.5.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "axios": "^1.6.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.0"
+  }
+}

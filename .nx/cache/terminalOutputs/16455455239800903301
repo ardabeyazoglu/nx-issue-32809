@@ -1,0 +1,18 @@
+> webpack-cli build --node-env=production
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 2.83 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m10:17-41[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@myapp/shared' in '/home/ardabeyaz/works/personal/nx-example/apps/api/src'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts:[32m[1m9:24[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@myapp/shared' or its corresponding type declarations.
+  [0m [90m  7 |[39m [36mimport[39m { [33mNestFactory[39m } [36mfrom[39m [32m'@nestjs/core'[39m[33m;[39m
+   [90m  8 |[39m [36mimport[39m { [33mAppModule[39m } [36mfrom[39m [32m'./app/app.module'[39m[33m;[39m
+  [31m[1m>[22m[39m[90m  9 |[39m [36mimport[39m { shared } [36mfrom[39m [32m'@myapp/shared'[39m[33m;[39m
+   [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m
+   [90m 10 |[39m
+   [90m 11 |[39m [36masync[39m [36mfunction[39m bootstrap() {
+   [90m 12 |[39m   [36mconst[39m app [33m=[39m [36mawait[39m [33mNestFactory[39m[33m.[39mcreate([33mAppModule[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (827c6c4aa336297f)

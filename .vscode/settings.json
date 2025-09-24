@@ -1,0 +1,14 @@
+{
+  // editor config
+  "files.eol": "\n",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "editor.formatOnSaveMode": "modificationsIfAvailable",
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  
+  // typescript
+  "typescript.tsdk": "node_modules/typescript/lib",
+
+}
